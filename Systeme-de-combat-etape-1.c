@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-	int attaque = 10;
-	int pvMonstre = 45;
+	int attaque = 10; // Attaque du joueur
+	int pvMonstre = 45; // PV du monstre
 	
+	// Schéma d'une attaque
 	printf("Le monstre a %d points de vie. \n ", pvMonstre );
 	
 	pvMonstre = pvMonstre - attaque;
